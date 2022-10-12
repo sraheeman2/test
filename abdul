@@ -1,0 +1,11 @@
+#Login as a root user
+sudo su -
+
+
+#Install JRE 1.8
+yum install java-1.8.0-openjdk -y
+java -version 
+#Install JDK 1.8 
+yum install java-1.8.0-openjdk-devel -y
+
+javac -version 
